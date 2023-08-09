@@ -18,8 +18,7 @@ import java.util.Map;
 @Component
 public class Processor implements ItemProcessor<User,User> {
 
-    private static final Map<String, String> DEPT_NAMES =
-            new HashMap<>();
+    private static final Map<String, String> DEPT_NAMES = new HashMap<>();
 
     public Processor() {
         DEPT_NAMES.put("001", "Technology");

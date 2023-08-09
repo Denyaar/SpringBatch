@@ -22,7 +22,7 @@ public class DBWritter implements ItemWriter<User>{
 
     UserRepository userRepository;
 
-    @Autowired
+
     public DBWritter(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
